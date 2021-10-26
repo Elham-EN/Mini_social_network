@@ -1,0 +1,111 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  border: 10px solid gray;
+}
+
+.homepage-main {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.homepage-header {
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.homepage-intro {
+  font-size: 18px;
+}
+
+.homepage-declare {
+  margin-top: 50px;
+}
+
+.homepage-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage-links p {
+  flex-basis: 50.5%;
+  padding-left: 100px;
+}
+
+.signup-link {
+  flex-basis: 50.5%;
+
+  text-align: center;
+  margin: 15px;
+}
+
+.friend_list_link {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+form td {
+  margin-top: 5px;
+}
+
+form p {
+  padding: 0px 5px;
+  text-align: right;
+}
+
+form input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background-color: var(--Color_Background);
+  color: var(--Color_Font);
+  padding: 2px 5px;
+  width: 200px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  border: 1 solid black;
+  background: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  margin: 2px 5px;
+  margin-top: 30px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: rgb(177, 175, 175);
+}
+.err-msg {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  width: 30%;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.friendList td {
+  border: 1px solid black;
+  padding: 1px 2px;
+}
+
+.friendList p {
+  text-align: left;
+}
+
+.button {
+  text-align: center;
+  border: 1 solid black;
+}
